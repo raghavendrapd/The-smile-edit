@@ -342,6 +342,9 @@ textarea {
   gap: 5px;
   padding: 4px;
   width: 34px;
+  position: relative;
+  z-index: 1000;
+  /* Ensure the hamburger button sits above the open menu so it can be closed */
 }
 
 .nav__hamburger span {
@@ -354,6 +357,8 @@ textarea {
 
 .nav__hamburger.open span:nth-child(1) {
   transform: translateY(6.5px) rotate(45deg);
+  background: var(--charcoal);
+  /* Keep lines dark when open to contrast against cream menu background */
 }
 
 .nav__hamburger.open span:nth-child(2) {
@@ -362,6 +367,8 @@ textarea {
 
 .nav__hamburger.open span:nth-child(3) {
   transform: translateY(-6.5px) rotate(-45deg);
+  background: var(--charcoal);
+  /* Keep lines dark when open to contrast against cream menu background */
 }
 
 /* Mobile nav open state */
@@ -379,6 +386,9 @@ textarea {
 
 .nav__links.open .nav__link {
   font-size: 1.3rem;
+  color: var(--charcoal);
+  /* Ensure mobile links are high-contrast dark text against the cream background */
+  font-weight: 500;
 }
 
 .nav__links.open .btn--nav {
