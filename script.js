@@ -5,7 +5,7 @@
 
 /* ─── CONFIG ─────────────────────────────────────────────────────── */
 // Replace with the actual WhatsApp number (digits only, include country code)
-const WHATSAPP_NUMBER = '919519721377';
+const WHATSAPP_NUMBER = '917204907775'; /* Format: CountryCode + Number without + symbol */
 
 /* ─── DOM REFS ───────────────────────────────────────────────────── */
 const nav = document.getElementById('nav');
