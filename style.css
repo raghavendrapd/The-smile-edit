@@ -641,7 +641,7 @@ textarea {
 .about__photo-placeholder {
   width: 100%;
   aspect-ratio: 3/4;
-  max-width: 380px;
+  max-width: 480px;
   background: linear-gradient(145deg, #EFE8D8 0%, #DDD0B8 100%);
   border-radius: var(--radius-lg);
   display: flex;
